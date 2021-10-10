@@ -1,0 +1,108 @@
+officers:
+  - name: "Joe Allen"
+    position: "Commander"
+    filter: "Command"
+    image: "allen.jpg"
+    number: "301-695-1585"
+  - name: "Danny Rodriguez"
+    position: "Sr. Vice Commander"
+    filter: "Command"
+    image: "blur.jpg"  
+  - name: "Darryl Warren"
+    position: "Jr. Vice Commander"
+    filter: "Command"
+    image: "blur.jpg"
+  - name: "David Kaye"
+    position: "Adjutant"
+    filter: "Operations"
+    image: "blur.jpg"
+  - name: "Dale Blake"
+    position: "Quartermaster"
+    filter: "Operations"
+    image: "dale.jpg"
+  - name: "Robert Harper"
+    position: "Chaplain"
+    filter: "Services"
+    image: "blur.jpg"
+  - name: "Patrick Pierson"
+    position: "Surgeon"
+    filter: "Services"
+    image: "pierson.jpg"
+  - name: "Danny Rodriguez"
+    position: "Service Officer"
+    filter: "Services"
+    image: "blur.jpg"
+  - name: "Patrick Pierson"
+    position: "Judge Advocate"
+    filter: "Operations"
+    image: "pierson.jpg"
+  - name: "Juan Stull"
+    position: "1st Year Trustee"
+    filter: Trustees"
+    image: "stull.jpg"
+  - name: "Wayne DeLauter"
+    position: "2nd Year Trustee"
+    filter: "Trustees"
+    image: "delaughter.jpg"
+  - name: "Patrick Pierson"
+    position: "3rd Year Trustee"
+    filter: "Trustees"
+    image: "pierson.jpg"
+
+contact_infos:
+  - name: "envelope-o"
+    value: "Email: contact@vfw3285.org"
+  - name: "phone"
+    value: "Phone: 301-663-3372"
+  - name: "map-marker"
+    value: "VFW Post 3285, 5901 Old National Pike, Frederick, MD 21702"
+
+socials:
+  - name: "facebook"
+    value: "https://www.facebook.com/VFWPost3285"
+  - name: "twitter"
+    value: "https://twitter.com/VFWPost3285"
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+gems:
+  - jekyll-sitemap
+
+# Site settings
+title: VFW Post 3285
+subtitle: "John R. Webb VFW Post 3285"
+url: "https://www.vfw3285.org" # the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+baseurl: ""
+newsletter: "https://us8.campaign-archive.com/home/?u=bf686e4d27915b21ce1cf42bf&id=d608a5130b"
+cover: "/assets/cover.png"
+logo: "/assets/logo-3285.png"
+
+# Build settings
+markdown: kramdown
+
+# Google analytics
+ga_tracking_id: "UA-92630193-1"
+
+google:
+  tag_manager:
+    container_id: GTM-MT9RKR2
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."

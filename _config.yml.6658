@@ -1,0 +1,108 @@
+officers:
+  - name: "Test Commander"
+    position: "Commander"
+    filter: "Command"
+    image: "blur.jpg"
+    number: "867-5309"
+  - name: "Test Sr Vice"
+    position: "Sr. Vice Commander"
+    filter: "Command"
+    image: "blur.jpg"  
+  - name: "Test Jr Vice"
+    position: "Jr. Vice Commander"
+    filter: "Command"
+    image: "blur.jpg"
+  - name: "Test Adjutant"
+    position: "Adjutant"
+    filter: "Operations"
+    image: "blur.jpg"
+  - name: "Test Quartermaster"
+    position: "Quartermaster"
+    filter: "Operations"
+    image: "blur.jpg"
+  - name: "Test Chaplain"
+    position: "Chaplain"
+    filter: "Services"
+    image: "blur.jpg"
+  - name: "Test Surgeon"
+    position: "Surgeon"
+    filter: "Services"
+    image: "pierson.jpg"
+  - name: "Danny Rodriguez"
+    position: "Service Officer"
+    filter: "Services"
+    image: "blur.jpg"
+  - name: "Test JA"
+    position: "Judge Advocate"
+    filter: "Operations"
+    image: "blur.jpg"
+  - name: "Test Trustee 1"
+    position: "1st Year Trustee"
+    filter: Trustees"
+    image: "blur.jpg"
+  - name: "Test Trustee 2"
+    position: "2nd Year Trustee"
+    filter: "Trustees"
+    image: "blur.jpg"
+  - name: "Test Trustee 3"
+    position: "3rd Year Trustee"
+    filter: "Trustees"
+    image: "blur.jpg"
+
+contact_infos:
+  - name: "envelope-o"
+    value: "Email: contact@test.org"
+  - name: "phone"
+    value: "Phone: 867-5309"
+  - name: "map-marker"
+    value: "Test location, USA"
+
+socials:
+  - name: "facebook"
+    value: "https://www.facebook.com/TestVFW"
+  - name: "twitter"
+    value: "https://twitter.com/TestVFW"
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+gems:
+  - jekyll-sitemap
+
+# Site settings
+title: Test VFW Post
+subtitle: "Test VFW Post"
+url: "https://testvfw.org" # the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+baseurl: ""
+newsletter: "https://newslettersignup.com"
+cover: "/assets/cover.png"
+logo: "/assets/logo-example.png"
+
+# Build settings
+markdown: kramdown
+
+# Google analytics
+ga_tracking_id: "UA-92630193-1"
+
+google:
+  tag_manager:
+    container_id: GTM-MT9RKR2
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
