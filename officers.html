@@ -1,0 +1,54 @@
+---
+layout: page
+title: Post Officers
+permalink: /officers/
+---
+
+    <!-- Slider Start -->
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Post Officers</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio Start -->
+<section id="portfolio-work">
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="portfolio-menu">
+            <ul>
+                <li class="filter" data-filter="all">All</li>
+                <li class="filter" data-filter=".Command">Command</li>
+                <li class="filter" data-filter=".Operations">Operations</li>
+                <li class="filter" data-filter=".Trustees">Trustees</li>
+                <li class="filter" data-filter=".Services">Services</li>
+            </ul>
+          </div>
+          <div class="portfolio-contant">
+            <ul id="portfolio-contant-active">
+              {% for officer in site.officers %}
+                <li class="mix {{ officer.filter }}">
+                  <a href="#">
+                    <img src="{{ site.baseurl }}/img/officers/{{ officer.image }}" alt="">
+                    <div class="overly">
+                      <div class="position-center">
+                        <h2>{{ officer.name }} - {{ officer.position }}</h2>
+                      </div>
+                    </div>
+                  </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
