@@ -87,7 +87,7 @@ url: "https://www.vfw3285.org" # the base hostname & protocol for your site
 baseurl: ""
 newsletter: "https://us8.campaign-archive.com/home/?u=bf686e4d27915b21ce1cf42bf&id=d608a5130b"
 cover: "/assets/cover.png"
-logo: "/assets/logo-3285.png"
+logo: "logo-3285.png"
 
 # Build settings
 markdown: kramdown
