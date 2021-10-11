@@ -1,0 +1,7 @@
+_site/*
+.sass-cache
+.jekyll-metadata
+.jekyll-cache
+deploy/*
+Gemfile.lock
+_config.yml
