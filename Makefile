@@ -5,7 +5,6 @@ INPUTDIR=$(BASEDIR)/input
 OUTPUTDIR=$(BASEDIR)/deploy
 
 S3_BUCKET=vfw$(POST)
-CLOUDFRONT_ID=EARYRCOOE3IYT
 
 DEBUG ?= 0
 
@@ -34,14 +33,18 @@ clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 devserver: setup
-	jekyll server
+	bundler exec jekyll server
 
 pushupdate:
 	aws s3 rm --recursive s3://$(S3_BUCKET)
 	aws s3 sync $(OUTPUTDIR) s3://$(S3_BUCKET) --acl public-read --cache-control max-age=2592000,public
-	aws cloudfront create-invalidation --distribution-id $(CLOUDFRONT_ID) --path "/*"
 
+invalidate_cloudfront:
+    ifeq ($(POST), 3285)
+		echo "Using EARYRCOOE3IYT for Post $(POST)"
+		aws cloudfront create-invalidation --distribution-id EARYRCOOE3IYT --path "/*"
+    endif
 
-publish: clean html pushupdate
+publish: clean html pushupdate invalidate_cloudfront
 
-.PHONY: html help clean serve devserver stopserver pushupdate publish
+.PHONY: html help clean serve devserver stopserver pushupdate invalidate_cloudfront publish
