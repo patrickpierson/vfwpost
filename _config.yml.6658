@@ -69,7 +69,7 @@ url: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html" # the base hostname
 baseurl: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html"
 newsletter: "https://newslettersignup.com"
 cover: "/assets/cover.png"
-logo: "logo-example.png"
+logo: "logo-6658.png"
 
 # Build settings
 markdown: kramdown
