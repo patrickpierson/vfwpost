@@ -44,6 +44,8 @@ contact_infos:
 socials:
   - name: "facebook"
     value: "https://www.facebook.com/VFW-Post-6658-Emmitsburg-MD-441802929163850/"
+  - name: "twitter"
+    value: "https://twitter.com/VFWHQ"
 
 exclude:
   - "/vendor/"
