@@ -84,7 +84,7 @@ title: Test VFW Post
 subtitle: "Test VFW Post"
 url: "https://testvfw.org" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: ""
+baseurl: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html"
 newsletter: "https://newslettersignup.com"
 cover: "/assets/cover.png"
 logo: "logo-example.png"
