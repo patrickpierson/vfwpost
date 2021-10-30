@@ -1,52 +1,67 @@
 officers:
-  - name: "Larry Smith"
+  - name: "Test Commander"
     position: "Commander"
     filter: "Command"
-    image: "lsmith.jpg"
-    number: "301-447-6141"
-  - name: "John Dallatezza"
+    image: "blur.jpg"
+    number: "867-5309"
+  - name: "Test Sr Vice"
     position: "Sr. Vice Commander"
     filter: "Command"
     image: "blur.jpg"  
-  - name: "Michael Orndorff"
+  - name: "Test Jr Vice"
     position: "Jr. Vice Commander"
     filter: "Command"
     image: "blur.jpg"
-  - name: "Anthony Wivell"
+  - name: "Test Adjutant"
     position: "Adjutant"
     filter: "Operations"
     image: "blur.jpg"
-  - name: "Anthony Wivell"
+  - name: "Test Quartermaster"
     position: "Quartermaster"
     filter: "Operations"
     image: "blur.jpg"
-  - name: "Eric Wivell"
+  - name: "Test Chaplain"
     position: "Chaplain"
     filter: "Services"
     image: "blur.jpg"
-  - name: "Eric Wivell"
+  - name: "Test Surgeon"
     position: "Surgeon"
     filter: "Services"
-    image: "blur.jpg"
-  - name: "Bernie Hobbs"
+    image: "pierson.jpg"
+  - name: "Danny Rodriguez"
     position: "Service Officer"
     filter: "Services"
-    image: "bhobbs.jpg"
-    
+    image: "blur.jpg"
+  - name: "Test JA"
+    position: "Judge Advocate"
+    filter: "Operations"
+    image: "blur.jpg"
+  - name: "Test Trustee 1"
+    position: "1st Year Trustee"
+    filter: Trustees"
+    image: "blur.jpg"
+  - name: "Test Trustee 2"
+    position: "2nd Year Trustee"
+    filter: "Trustees"
+    image: "blur.jpg"
+  - name: "Test Trustee 3"
+    position: "3rd Year Trustee"
+    filter: "Trustees"
+    image: "blur.jpg"
 
 contact_infos:
   - name: "envelope-o"
     value: "Email: contact@test.org"
   - name: "phone"
-    value: "Phone: 301-447-6141"
+    value: "Phone: 867-5309"
   - name: "map-marker"
-    value: "20 W Main St, Emmitsburg, MD 21727"
+    value: "Test location, USA"
 
 socials:
   - name: "facebook"
-    value: "https://www.facebook.com/VFW-Post-6658-Emmitsburg-MD-441802929163850/"
+    value: "https://www.facebook.com/TestVFW"
   - name: "twitter"
-    value: "https://twitter.com/VFWHQ"
+    value: "https://twitter.com/TestVFW"
 
 exclude:
   - "/vendor/"
@@ -65,14 +80,14 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-title: Emmitsburg VFW Post 6658
-subtitle: "Emmitsburg VFW Post 6658"
-url: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html" # the base hostname & protocol for your site
+title: Test VFW Post
+subtitle: "Test VFW Post"
+url: "https://testvfw.org" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 newsletter: "https://newslettersignup.com"
 cover: "/assets/cover.png"
-logo: "logo-6658.png"
+logo: "logo-example.png"
 
 # Build settings
 markdown: kramdown
