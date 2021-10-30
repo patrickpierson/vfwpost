@@ -1,5 +1,5 @@
 officers:
-  - name: "Larry Smith
+  - name: "Larry Smith"
     position: "Commander"
     filter: "Command"
     image: "lsmith.jpg"
@@ -32,12 +32,13 @@ officers:
     position: "Service Officer"
     filter: "Services"
     image: "bhobbs.jpg"
+    
 
 contact_infos:
   - name: "envelope-o"
     value: "Email: contact@test.org"
   - name: "phone"
-    value: "Phone: (301) 447-6141"
+    value: "Phone: 301-447-6141"
   - name: "map-marker"
     value: "20 W Main St, Emmitsburg, MD 21727"
 
@@ -65,10 +66,10 @@ gems:
 
 # Site settings
 title: Emmitsburg VFW Post 6658
-subtitle: "Emmitsburg, MD"
+subtitle: "Emmitsburg VFW Post 6658"
 url: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html"
+baseurl: ""
 newsletter: "https://newslettersignup.com"
 cover: "/assets/cover.png"
 logo: "logo-6658.png"
