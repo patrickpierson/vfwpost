@@ -28,7 +28,7 @@ help:
 	@echo '                                                                                          '
 
 html: setup
-	jekyll build -d $(OUTPUTDIR)
+	bundler exec jekyll build -d $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)

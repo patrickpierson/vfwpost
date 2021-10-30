@@ -1,67 +1,52 @@
 officers:
-  - name: "Joe Allen"
+  - name: "Larry Smith"
     position: "Commander"
     filter: "Command"
-    image: "allen.jpg"
-    number: "301-695-1585"
-  - name: "Danny Rodriguez"
+    image: "lsmith.jpg"
+    number: "301-447-6141"
+  - name: "John Dallatezza"
     position: "Sr. Vice Commander"
     filter: "Command"
     image: "blur.jpg"  
-  - name: "Darryl Warren"
+  - name: "Michael Orndorff"
     position: "Jr. Vice Commander"
     filter: "Command"
     image: "blur.jpg"
-  - name: "David Kaye"
+  - name: "Anthony Wivell"
     position: "Adjutant"
     filter: "Operations"
     image: "blur.jpg"
-  - name: "Dale Blake"
+  - name: "Anthony Wivell"
     position: "Quartermaster"
     filter: "Operations"
-    image: "dale.jpg"
-  - name: "Robert Harper"
+    image: "blur.jpg"
+  - name: "Eric Wivell"
     position: "Chaplain"
     filter: "Services"
     image: "blur.jpg"
-  - name: "Patrick Pierson"
+  - name: "Eric Wivell"
     position: "Surgeon"
     filter: "Services"
-    image: "pierson.jpg"
-  - name: "Danny Rodriguez"
+    image: "blur.jpg"
+  - name: "Bernie Hobbs"
     position: "Service Officer"
     filter: "Services"
-    image: "blur.jpg"
-  - name: "Patrick Pierson"
-    position: "Judge Advocate"
-    filter: "Operations"
-    image: "pierson.jpg"
-  - name: "Juan Stull"
-    position: "1st Year Trustee"
-    filter: Trustees"
-    image: "stull.jpg"
-  - name: "Wayne DeLauter"
-    position: "2nd Year Trustee"
-    filter: "Trustees"
-    image: "delaughter.jpg"
-  - name: "Patrick Pierson"
-    position: "3rd Year Trustee"
-    filter: "Trustees"
-    image: "pierson.jpg"
+    image: "bhobbs.jpg"
+    
 
 contact_infos:
   - name: "envelope-o"
-    value: "Email: contact@vfw3285.org"
+    value: "Email: contact@test.org"
   - name: "phone"
-    value: "Phone: 301-663-3372"
+    value: "Phone: 301-447-6141"
   - name: "map-marker"
-    value: "VFW Post 3285, 5901 Old National Pike, Frederick, MD 21702"
+    value: "20 W Main St, Emmitsburg, MD 21727"
 
 socials:
   - name: "facebook"
-    value: "https://www.facebook.com/VFWPost3285"
+    value: "https://www.facebook.com/VFW-Post-6658-Emmitsburg-MD-441802929163850/"
   - name: "twitter"
-    value: "https://twitter.com/VFWPost3285"
+    value: "https://twitter.com/VFWHQ"
 
 exclude:
   - "/vendor/"
@@ -80,14 +65,14 @@ gems:
   - jekyll-sitemap
 
 # Site settings
-title: VFW Post 3285
-subtitle: "John R. Webb VFW Post 3285"
-url: "https://www.vfw3285.org" # the base hostname & protocol for your site
+title: Emmitsburg VFW Post 6658
+subtitle: "Emmitsburg VFW Post 6658"
+url: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
-newsletter: "https://us8.campaign-archive.com/home/?u=bf686e4d27915b21ce1cf42bf&id=d608a5130b"
+newsletter: "https://newslettersignup.com"
 cover: "/assets/cover.png"
-logo: "/assets/logo-3285.png"
+logo: "logo-6658.png"
 
 # Build settings
 markdown: kramdown
