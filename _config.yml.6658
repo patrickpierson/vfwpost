@@ -67,9 +67,10 @@ gems:
 # Site settings
 title: Emmitsburg VFW Post 6658
 subtitle: "Emmitsburg VFW Post 6658"
-url: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html" # the base hostname & protocol for your site
+
+url: "http://vfw6658.s3-website.us-east-1.amazonaws.com/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "https://vfw6658.s3.us-east-1.amazonaws.com/index.html"
+baseurl: ""
 newsletter: "https://newslettersignup.com"
 cover: "/assets/cover.png"
 logo: "logo-6658.png"
