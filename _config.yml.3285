@@ -62,6 +62,8 @@ socials:
     value: "https://www.facebook.com/VFWPost3285"
   - name: "twitter"
     value: "https://twitter.com/VFWPost3285"
+  - name: "email"
+    value: "contact@vfw3285.org"
 
 exclude:
   - "/vendor/"
