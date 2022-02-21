@@ -62,6 +62,8 @@ socials:
     value: "https://www.facebook.com/VFWPost3285"
   - name: "twitter"
     value: "https://twitter.com/VFWPost3285"
+  - name: "email"
+    value: "contact@vfw3285.org"
 
 exclude:
   - "/vendor/"
@@ -88,6 +90,8 @@ baseurl: ""
 newsletter: "https://us8.campaign-archive.com/home/?u=bf686e4d27915b21ce1cf42bf&id=d608a5130b"
 cover: "/assets/cover.png"
 logo: "logo-3285.png"
+
+bylaws: "resources/post3285bylaws.pdf"
 
 # Build settings
 markdown: kramdown
