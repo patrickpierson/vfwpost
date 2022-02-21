@@ -91,6 +91,8 @@ newsletter: "https://us8.campaign-archive.com/home/?u=bf686e4d27915b21ce1cf42bf&
 cover: "/assets/cover.png"
 logo: "logo-3285.png"
 
+bylaws: "resources/post3285bylaws.pdf"
+
 # Build settings
 markdown: kramdown
 
