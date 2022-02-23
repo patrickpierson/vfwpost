@@ -27,7 +27,7 @@ help:
 	@echo '                                                                                          '
 
 html: setup
-	docker run --rm -v $(BASEDIR):/srv/jekyll -it jekyll/jekyll jekyll build -d $(OUTPUTDIR)
+	docker run --rm -v $(BASEDIR):/srv/jekyll jekyll/jekyll jekyll build -d $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
