@@ -2,7 +2,7 @@ POST=example
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/input
-OUTPUTDIR=$(BASEDIR)/deploy
+OUTPUTDIR=deploy
 
 S3_BUCKET=vfw$(POST)
 
@@ -27,13 +27,13 @@ help:
 	@echo '                                                                                          '
 
 html: setup
-	bundler exec jekyll build -d $(OUTPUTDIR)
+	docker run --rm -v $(BASEDIR):/srv/jekyll -it jekyll/jekyll jekyll build -d $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 devserver: setup
-	bundler exec jekyll server
+	docker run -p 4000:4000 -v $(BASEDIR):/site bretfisher/jekyll-serve
 
 pushupdate:
 	aws s3 rm --recursive s3://$(S3_BUCKET)

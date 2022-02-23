@@ -29,14 +29,4 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6 # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      - run: bundle install
-
-      - run: gem install jekyll
-
-      - run: aws sts get-caller-identity
-
       - run: for post in 3285 6658 example; do make POST=$post publish; done;
