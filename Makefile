@@ -8,6 +8,9 @@ S3_BUCKET=vfw$(POST)
 
 DEBUG ?= 0
 
+UID := $(shell id -u)
+GID := $(shell id -g)
+
 setup:
 	@echo 'Using _config.yml.$(POST)'
 	cp _config.yml.$(POST) _config.yml
@@ -27,7 +30,7 @@ help:
 	@echo '                                                                                          '
 
 html: setup
-	docker run --rm -v $(BASEDIR):/srv/jekyll jekyll/jekyll jekyll build -d $(OUTPUTDIR)
+	docker run -e JEKYLL_UID=$(UID) -e JEKYLL_GID=$(GID) --rm -v $(BASEDIR):/srv/jekyll jekyll/jekyll jekyll build -d $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
