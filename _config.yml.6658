@@ -79,6 +79,9 @@ logo: "logo-6658.png"
 
 bylaws: "resources/post6658bylaws.pdf"
 
+aboutus:
+ - To be filled in shortly.
+
 # Build settings
 markdown: kramdown
 
