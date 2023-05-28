@@ -23,7 +23,7 @@ officers:
   - name: "Robert Harper"
     position: "Chaplain"
     filter: "Services"
-    image: "blur.jpg"
+    image: "bobh.jpg"
   - name: "Derrick Ball"
     position: "Surgeon"
     filter: "Services"
