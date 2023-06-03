@@ -29,4 +29,4 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - run: for post in 3285 6658 example; do make POST=$post publish; done;
+      - run: for post in 3285 example; do make POST=$post publish; done;
