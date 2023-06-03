@@ -32,3 +32,7 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+ul {
+  text-align: left;
+}

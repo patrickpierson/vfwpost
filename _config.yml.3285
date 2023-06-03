@@ -33,15 +33,15 @@ officers:
     filter: "Services"
     image: "danny.jpg"
   - name: "Wayne DeLauter"
-    position: "1st Year Trustee"
+    position: "1 Year Trustee"
     filter: Trustees"
     image: "delaughter.jpg"
   - name: "John Stuart"
-    position: "2nd Year Trustee"
+    position: "2 Year Trustee"
     filter: "Trustees"
     image: "blur.jpg"
   - name: "Mark Minter"
-    position: "3rd Year Trustee"
+    position: "3 Year Trustee"
     filter: "Trustees"
     image: "blur.jpg"
 
@@ -97,7 +97,8 @@ aboutus:
   - In 1967 the Post constructed an Olympic-size Swimming Pool and bath-house, moving the No. 9 golf green to its present location.  This Post activity has proven to be extremely popular with members and Fredericktonians.
   - With the growth of the Post and the improved facilities Membership growth increased which also brought about increased participation by the Post members in the main Patriotic, Community Service and Youth Activity programs, which are the hallmark of strong VFW Posts.
   - Currently, the Post has over 1000 members, despite the fact that membership criteria is more demanding than that in other service organizations. The Post Quartermaster, who functions under the Post Commander and 11-member Executive Committee, conducts day-to-day operation of the Post. General meetings of all Post members are scheduled on the first Monday of each month at 1900 (7 PM).
-  
+
+newbuilding: True  
 
 # Build settings
 markdown: kramdown
