@@ -30,7 +30,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Bundler Audit Action
         uses: andrewmcodes/bundler-audit-action@v0.1.0
-      - name: Setup degub
+      - name: Setup debug if not master
+        if: ${{ github.ref != 'refs/heads/master' }}
         run: |
           cd _includes
           sed -i "/gtag('config', 'G-470XYX9EHP'/s/$/, { 'debug_mode':true })/" analytics.html
