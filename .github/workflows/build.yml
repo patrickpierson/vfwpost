@@ -34,5 +34,5 @@ jobs:
         if: ${{ github.ref != 'refs/heads/master' }}
         run: |
           cd _includes
-          sed -i "/gtag('config', 'G-470XYX9EHP'/s/$/, { 'debug_mode':true })/" analytics.html
+          sed -i "/'G-470XYX9EHP'/s/$/, { 'debug_mode':true })/" analytics.html
       - run: for post in 3285 example; do make POST=$post publish; done;
